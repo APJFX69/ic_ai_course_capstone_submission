@@ -1,14 +1,20 @@
 # Model Card
 
-See the [example Google model cards](https://modelcards.withgoogle.com/model-reports) for inspiration. 
+I used two models to build recommendaiton -  tabularisai/multilingual-sentiment-analysis and decision tree.
+
+Model Name: tabularisai/multilingual-sentiment-analysis
+Base Model: distilbert/distilbert-base-multilingual-cased
+Task: Text Classification (Sentiment Analysis)
+Languages: Supports English plus Chinese (中文), Spanish (Español), Hindi (हिन्दी), Arabic (العربية), Bengali (বাংলা), Portuguese (Português), Russian (Русский), Japanese (日本語), German (Deutsch), Malay (Bahasa Melayu), Telugu (తెలుగు), Vietnamese (Tiếng Việt), Korean (한국어), French (Français), Turkish (Türkçe), Italian (Italiano), Polish (Polski), Ukrainian (Українська), Tagalog, Dutch (Nederlands), Swiss German (Schweizerdeutsch), and Swahili.
+Number of Classes: 5 (Very Negative, Negative, Neutral, Positive, Very Positive)
 
 ## Model Description
 
-**Input:** Describe the inputs of your model 
+**Input:** Client accounts data and sentiment of the client's feedback for the product.
 
-**Output:** Describe the output(s) of your model
+**Output:** Rank of the opporutnity
 
-**Model Architecture:** Describe the model architecture you’ve used
+**Model Architecture:** 
 
 ## Performance
 
