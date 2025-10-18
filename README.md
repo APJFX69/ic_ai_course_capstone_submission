@@ -1,13 +1,13 @@
 # A client sentiment recommendation expert module for CRM
 
-## NON-TECHNICAL EXPLANATION OF YOUR PROJECT
-WE are building a model that classifies product description provided by clients into classes dependingon the positivity of the review. Based on that the model recommends an action (prioritisation for the respective sales person to reach ou to client).
+## PROJECT OVERVIEW
+
+WE are building a model that classifies product description provided by clients into classes depending on the positivity of the review. Based on that the model recommends an action (prioritisation for the respective sales person to reach ou to client).
 
 ## DATA
-The project is using data from two sources - both available via Kaggle:
-First source is a fictional company CRM data (https://www.kaggle.com/datasets/innocentmfa/crm-sales-opportunities?select=sales_pipeline.csv)
-Second source is a review from Amazon (https://www.kaggle.com/datasets/ramzanzdemir/flo-data-20k)
-We combined the two to create a synthetic dataset for a fictional company where client leave feedback 
+The project is using data from two sources - both available via Kaggle platform that are then merged to create a synthetic data used to train model. The details of the each data sources is provided under 
+
+[View the Data Sheet](./data_sheet.md)
 
 ## MODEL 
 A summary of the model you’re using and why you chose it. 
