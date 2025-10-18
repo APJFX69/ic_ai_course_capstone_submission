@@ -1,4 +1,4 @@
-# Datasheet Template
+# Datasheet 
 
 There were two source of the information collected for this projects - both provided on Kaggle platform:
 [1] CRM (Customer Relationship Management) Opportunities
