@@ -2,7 +2,7 @@
 
 We have used multiple models to build ensemble:
 
-[1] tabularisai/multilingual-sentiment-analysis
+[1] tabularisai/multilingual-sentiment-analysis - see https://huggingface.co/tabularisai/multilingual-sentiment-analysis
 
 Model Name: tabularisai/multilingual-sentiment-analysis
 Base Model: distilbert/distilbert-base-multilingual-cased
@@ -11,7 +11,9 @@ Languages: Supports English plus Chinese (中文), Spanish (Español), Hindi (�
 Number of Classes: 5 (Very Negative, Negative, Neutral, Positive, Very Positive)
 
 [2] GradientBoostingClassifier from SkLearn - see https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingClassifier.html
+
 [3] RandomForest Classisfier - see https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
+
 [4] Logistic Regression
 
 ## Model Description
@@ -21,19 +23,25 @@ Number of Classes: 5 (Very Negative, Negative, Neutral, Positive, Very Positive)
 **Output:** Probability of the win and loss for a given opportunity 
 
 **Model Architecture:** 
+
 1. Data is enhanced with sentiment analysis for the clietn feedback
-2. An ensemble model applied with GradientBoosting and RandomForest classifiers used as a base, while Logistic regression used as a metamodel.
+
+3. An ensemble model applied with GradientBoosting and RandomForest classifiers used as a base, while Logistic regression used as a metamodel.
 
 
 ## Performance
 
 **Meta-model weights (higher -> more influence):**
 Intercept: 1.026676149653994
+
 RandomForest_proba    0.228467
+
 GradientBoost_proba   -0.999474
 
 **The model shows stable predictive power:**
+
 Train success rate 63.15% 
+
 Validation: 63.14%
 
 ## Limitations

@@ -1,8 +1,8 @@
-# A client sentiment recommendation expert module for CRM
+# A sales opportunities ranking for CRM
 
 ## PROJECT OVERVIEW
 
-WE are building a model that classifies product description provided by clients into classes depending on the positivity of the review. Based on that the model recommends an action (prioritisation for the respective sales person to reach ou to client).
+This is a model that evaluates client-provided product descriptions to generate positivity scores reflecting customer sentiment. By integrating these sentiment insights with key client characteristics, the model identifies and prioritizes the most promising sales opportunities - delivering to each salesperson a tailored list of their top three prospects for focused action
 
 ## DATA
 The project is using data from two sources - both available via Kaggle platform that are then merged to create a synthetic data used to train model. 
