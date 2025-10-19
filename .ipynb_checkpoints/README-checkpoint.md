@@ -28,7 +28,7 @@ Here is the resulting classification tree for the Gradient Boost Forest:
 
 The meta model is finished by a logistic regression being used as final estimator result in the following weights
 
-Meta-model weights (higher -> more influence):
+### Meta-model weights (higher -> more influence):
 Intercept: 1.026676149653994
 rf_proba    0.228467
 gb_proba   -0.999474
