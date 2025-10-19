@@ -29,11 +29,12 @@ Number of Classes: 5 (Very Negative, Negative, Neutral, Positive, Very Positive)
 
 **Meta-model weights (higher -> more influence):**
 Intercept: 1.026676149653994
-rf_proba    0.228467
-gb_proba   -0.999474
+RandomForest_proba    0.228467
+GradientBoost_proba   -0.999474
 
 **The model shows stable predictive power:**
-Train & validation success rate 0.6315201192250373 0.6314221891288161
+Train success rate 63.15% 
+Validation: 63.14%
 
 ## Limitations
 

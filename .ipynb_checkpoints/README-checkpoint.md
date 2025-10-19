@@ -27,7 +27,7 @@ A full model card is provided as a part of the project: [View the Model Card](./
 
 ## HYPERPARAMETER OPTIMSATION
 
-Given fairly small data set for the training no hyperparameter optimisation was done.
+Given fairly small data set for the training no hyperparameter optimisation was not done.
 
 ## RESULTS
 
